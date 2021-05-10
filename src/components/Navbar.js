@@ -51,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
+  { listIcon: <Apps />, listText: "Skills", listPath: "/skills" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
@@ -94,7 +95,7 @@ const Navbar = () => {
               <ArrowBack className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Portfolio, Skills, Resume, Contact, 
             </Typography>
           </Toolbar>
         </AppBar>
