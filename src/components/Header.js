@@ -46,18 +46,32 @@ const Header = () => {
 
       <Typography className={classes.subtitle} variant="h5">
         <Typed
-          strings={[
-            "Frontend Developer",
-            "Backend Developer",
-            "Musician",
-          ]}
+          strings={["Frontend Developer", "Backend Developer", "Musician"]}
           typeSpeed={40}
           backSpeed={50}
           loop
         />
       </Typography>
-      <i className="icon fab fa-js fa-5x"></i>
-      <i id="python-icon" className="fab fa-python fa-5x"></i>
+      <div id="icon-outer">
+        <div id="icon-container">
+          <i id="js-icon" className="icon fab fa-js fa-5x"></i>
+          <i id="node-icon" class="icon fab fa-node fa-5x"></i>
+          <i id="python-icon" className="icon fab fa-python fa-5x"></i>
+          <i id="react-icon" className="icon fab fa-react fa-5x"></i>
+          <img id="flask-icon" className="icon" src="icons/flask-icon-2.png" />
+          <img
+            id="sql-alchemy-icon"
+            className="icon"
+            src="icons/sql-alchemy-icon.png"
+          />
+          <i id="aws-icon" className="icon fab fa-aws fa-5x"></i>
+          <img
+            id="sequelize-icon"
+            className="icon"
+            src="icons/sequelize-logo.png"
+          />
+        </div>
+      </div>
     </Box>
   );
 };
