@@ -40,18 +40,14 @@ const projects = [
   },
   {
     name: "Cloudify",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `Cloudify is a web application inspired by SoundCloud built using Python / Flask utilizing React.js/Redux architecture.`,
+    usersCan: ["Create an account / profile", "Log in / Log out", "Upload / share live music videos"],
     image: cloudifyHomePage,
   },
   {
     name: "Fretsy",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `Fretsy is an e-commerce app for purchasing guitars / equipment (inspired by Etsy). It was built using Node.js / Express for the backend and React.js/Redux architecture for the frontend.`,
+    usersCan: ["Create an account / profile", "Log in / Log out", "Upload / share live music videos"],
     image: fretsyHomePage,
   },
   // {
@@ -103,7 +99,7 @@ const Portfolio = () => {
                     height="300"
                     image={project.image}
                   />
-                  <CardContent>
+                  <CardContent id="card-content">
                     <Typography variant="h5" gutterBottom>
                       {project.name}
                     </Typography>
