@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebc4847a37bb886f08dffb8c121e672d",
+    "revision": "eb63ba5e1c8e88e7cd27777b1f99a57a",
     "url": "/index.html"
   },
   {
-    "revision": "32818306daf09c970a85",
-    "url": "/static/css/main.c2f34970.chunk.css"
+    "revision": "21ba80edc1aa3dc9de9d",
+    "url": "/static/css/main.3f9a0e97.chunk.css"
   },
   {
-    "revision": "222cc716f361b8b4ee6f",
-    "url": "/static/js/2.0b398f67.chunk.js"
+    "revision": "be04d7dc6ea806a4f46c",
+    "url": "/static/js/2.72b53bf6.chunk.js"
   },
   {
-    "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/static/js/2.0b398f67.chunk.js.LICENSE.txt"
+    "revision": "a4fd97edab38c6ca863e6fa5b53dfd12",
+    "url": "/static/js/2.72b53bf6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32818306daf09c970a85",
-    "url": "/static/js/main.d11a41e1.chunk.js"
+    "revision": "21ba80edc1aa3dc9de9d",
+    "url": "/static/js/main.d90609d3.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/avatar.d4a88514.png"
   },
   {
+    "revision": "b55724f7f89acc6a95a7808d23a2ac42",
+    "url": "/static/media/cloudify-homepage.b55724f7.PNG"
+  },
+  {
     "revision": "2dd213aa54b22c3bca0c62f570d1512a",
     "url": "/static/media/coffee-apple.2dd213aa.jpg"
+  },
+  {
+    "revision": "c593beb001f7c4bd0d5fcb2a153cd65d",
+    "url": "/static/media/homepage-fretsy.c593beb0.PNG"
   },
   {
     "revision": "54fd423489a1937caf8950d12c8a8526",
@@ -54,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f370c1e0adb80194dd3ea10e468bc69a",
     "url": "/static/media/react.f370c1e0.png"
+  },
+  {
+    "revision": "61f50b1141c48320443a4e1e92c5ab03",
+    "url": "/static/media/video-page-groovetube.61f50b11.PNG"
   }
 ]);
