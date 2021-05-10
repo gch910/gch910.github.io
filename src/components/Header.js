@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
+import "./Styles.css";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -55,6 +56,8 @@ const Header = () => {
           loop
         />
       </Typography>
+      <i className="icon fab fa-js fa-5x"></i>
+      <i id="python-icon" className="fab fa-python fa-5x"></i>
     </Box>
   );
 };
