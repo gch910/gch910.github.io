@@ -10,12 +10,15 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import javascript from "../images/javascript-fullstack.jpg";
+import htmlCss from "../images/html-css-image.png";
+import python from "../images/python-image.png";
+import react from "../images/react-redux.jpg";
+import postgres from "../images/postgres-image.jpeg";
+import sqlAlchemy from "../images/sql-alchemy-image.jpg";
+import sequelize from "../images/sequelize-image.png";
+import flask from "../images/flask-image-3.png";
+import express from "../images/express-image.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -30,52 +33,49 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
+    name: "Full Stack Javascript",
+    description: ``,
+    image: javascript,
   },
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    name: "HTML & CSS",
+    description: ``,
+    image: htmlCss,
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    name: "Python",
+    description: ``,
+    image: python,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
+    name: "React JS and Redux",
+    description: ``,
+    image: react,
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
+    name: "PostgreSQL",
+    description: ``,
+    image: postgres,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
+    name: "Flask + SQL Alchemy",
+    description: ``,
+    image: sqlAlchemy,
+  },
+  {
+    name: "Sequelize",
+    description: ``,
+    image: sequelize,
+  },
+  {
+    name: "Flask",
+    description: ``,
+    image: flask,
+  },
+  {
+    name: "Express",
+    description: ``,
+    image: express,
   },
 ];
 

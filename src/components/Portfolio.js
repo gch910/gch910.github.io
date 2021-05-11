@@ -14,7 +14,6 @@ import "./Styles.css";
 import groovetubeVideoPage from "../images/video-page-groovetube.PNG";
 import cloudifyHomePage from "../images/cloudify-homepage.PNG";
 import fretsyHomePage from "../images/homepage-fretsy.PNG";
-import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
 import project6 from "../images/react.png";
 import { findByLabelText } from "@testing-library/dom";
