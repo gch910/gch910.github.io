@@ -33,8 +33,8 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction onClick={(e) => linkedInClick(e)} icon={<LinkedIn />} className={classes.root} />
-      <BottomNavigationAction icon={<GitHub />} className={classes.root} />
+      <a href="https://www.linkedin.com/in/gabriel-harris-249231208/"><BottomNavigationAction icon={<LinkedIn />} className={classes.root} /></a>
+      <a href="https://github.com/gch910"><BottomNavigationAction icon={<GitHub />} className={classes.root} /></a>
     </BottomNavigation>
   );
 };
