@@ -1,0 +1,95 @@
+#icon-outer {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-container {
+    display: grid;
+    width: 50%;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon {
+    
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+#js-icon {
+    color: yellow;
+}
+
+#python-icon {
+    /* background-color: rgb(87, 160, 173); */
+    color: #00A373;
+}
+
+#react-icon {
+    color: #61DAFB;
+}
+
+#flask-icon {
+    /* width: 60px;
+    height: 60px; */
+    /* border-radius: 50%; */
+    background-color: white;
+}
+#sql-alchemy-icon {
+    /* width: 60px;
+    height: 60px; */
+    /* border-radius: 50%; */
+    background-color: white;
+}
+#sequelize-icon {
+    /* width: 60px;
+    height: 60px; */
+    /* border-radius: 50%; */
+    background-color: white;
+}
+
+#aws-icon {
+    color: rgb(243, 128, 20);
+    justify-self: left;
+}
+
+#node-icon {
+    color: #83CD29;
+}
+
+#card-container {
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    background-color: rgba(162, 0, 255, 0.25);
+}
+
+#card {
+    height: 40em;
+}
+
+#projects-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(162, 0, 255, 0.25);
+}
+
+#card-content {
+    height: 20em;
+}
