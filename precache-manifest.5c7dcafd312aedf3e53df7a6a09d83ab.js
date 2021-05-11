@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f94dd18d354bf54e8cfa2604ce98406",
+    "revision": "2fee85e4aca4b076b2bcd9f817309b71",
     "url": "/index.html"
   },
   {
-    "revision": "50ece37c1196181db694",
+    "revision": "62b6a31f1900fc036274",
     "url": "/static/css/main.3530342d.chunk.css"
   },
   {
-    "revision": "504fd41f83a040e3097c",
-    "url": "/static/js/2.eca76468.chunk.js"
+    "revision": "26ee151a435d296b1842",
+    "url": "/static/js/2.20c8b1b5.chunk.js"
   },
   {
     "revision": "a4fd97edab38c6ca863e6fa5b53dfd12",
-    "url": "/static/js/2.eca76468.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.20c8b1b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50ece37c1196181db694",
-    "url": "/static/js/main.a2ee0ce5.chunk.js"
+    "revision": "62b6a31f1900fc036274",
+    "url": "/static/js/main.4c48addf.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -36,24 +36,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/coffee-apple.2dd213aa.jpg"
   },
   {
+    "revision": "8b67d1064dc6b182de524fd187b0331f",
+    "url": "/static/media/express-image.8b67d106.png"
+  },
+  {
+    "revision": "d06e73bbb0a75dd313f6919b6144d02d",
+    "url": "/static/media/flask-image-3.d06e73bb.png"
+  },
+  {
     "revision": "c593beb001f7c4bd0d5fcb2a153cd65d",
     "url": "/static/media/homepage-fretsy.c593beb0.PNG"
   },
   {
-    "revision": "54fd423489a1937caf8950d12c8a8526",
-    "url": "/static/media/html-css-javascript-lg.54fd4234.jpg"
-  },
-  {
-    "revision": "2c7701aae07adecdb0a7e336dff08def",
-    "url": "/static/media/html-css-javascript.2c7701aa.jpg"
+    "revision": "8ec908094ae2c2c7a8bf1c2532d5d7a8",
+    "url": "/static/media/html-css-image.8ec90809.png"
   },
   {
     "revision": "730958a228d26dee011c5aa0aa3c3db9",
     "url": "/static/media/javascript-fullstack.730958a2.jpg"
   },
   {
-    "revision": "90616a5dc9acdcce7158addc89620052",
-    "url": "/static/media/mern-stack.90616a5d.jpg"
+    "revision": "5c83156f865045f492e199c8e967c7d1",
+    "url": "/static/media/postgres-image.5c83156f.jpeg"
   },
   {
     "revision": "a8b012a0d7afd08ee07251e1f67294ff",
@@ -62,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f370c1e0adb80194dd3ea10e468bc69a",
     "url": "/static/media/react.f370c1e0.png"
+  },
+  {
+    "revision": "4e43f6130697f7922d02ffe3192ee148",
+    "url": "/static/media/sequelize-image.4e43f613.png"
+  },
+  {
+    "revision": "2482c9d6c3dc89a3825e181ff3b0824f",
+    "url": "/static/media/sql-alchemy-image.2482c9d6.jpg"
   },
   {
     "revision": "61f50b1141c48320443a4e1e92c5ab03",

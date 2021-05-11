@@ -1,33 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.3530342d.chunk.css",
-    "main.js": "/static/js/main.a2ee0ce5.chunk.js",
-    "main.js.map": "/static/js/main.a2ee0ce5.chunk.js.map",
+    "main.js": "/static/js/main.4c48addf.chunk.js",
+    "main.js.map": "/static/js/main.4c48addf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.eca76468.chunk.js": "/static/js/2.eca76468.chunk.js",
-    "static/js/2.eca76468.chunk.js.map": "/static/js/2.eca76468.chunk.js.map",
+    "static/js/2.20c8b1b5.chunk.js": "/static/js/2.20c8b1b5.chunk.js",
+    "static/js/2.20c8b1b5.chunk.js.map": "/static/js/2.20c8b1b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b07a68c3126de8e60925126a7a2092f0.js": "/precache-manifest.b07a68c3126de8e60925126a7a2092f0.js",
+    "precache-manifest.5c7dcafd312aedf3e53df7a6a09d83ab.js": "/precache-manifest.5c7dcafd312aedf3e53df7a6a09d83ab.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3530342d.chunk.css.map": "/static/css/main.3530342d.chunk.css.map",
-    "static/js/2.eca76468.chunk.js.LICENSE.txt": "/static/js/2.eca76468.chunk.js.LICENSE.txt",
+    "static/js/2.20c8b1b5.chunk.js.LICENSE.txt": "/static/js/2.20c8b1b5.chunk.js.LICENSE.txt",
     "static/media/avatar.png": "/static/media/avatar.d4a88514.png",
     "static/media/cloudify-homepage.PNG": "/static/media/cloudify-homepage.b55724f7.PNG",
     "static/media/App.css": "/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/express-image.png": "/static/media/express-image.8b67d106.png",
+    "static/media/flask-image-3.png": "/static/media/flask-image-3.d06e73bb.png",
     "static/media/homepage-fretsy.PNG": "/static/media/homepage-fretsy.c593beb0.PNG",
-    "static/media/html-css-javascript-lg.jpg": "/static/media/html-css-javascript-lg.54fd4234.jpg",
-    "static/media/html-css-javascript.jpg": "/static/media/html-css-javascript.2c7701aa.jpg",
+    "static/media/html-css-image.png": "/static/media/html-css-image.8ec90809.png",
     "static/media/javascript-fullstack.jpg": "/static/media/javascript-fullstack.730958a2.jpg",
-    "static/media/mern-stack.jpg": "/static/media/mern-stack.90616a5d.jpg",
+    "static/media/postgres-image.jpeg": "/static/media/postgres-image.5c83156f.jpeg",
     "static/media/react-redux.jpg": "/static/media/react-redux.a8b012a0.jpg",
     "static/media/react.png": "/static/media/react.f370c1e0.png",
+    "static/media/sequelize-image.png": "/static/media/sequelize-image.4e43f613.png",
+    "static/media/sql-alchemy-image.jpg": "/static/media/sql-alchemy-image.2482c9d6.jpg",
     "static/media/video-page-groovetube.PNG": "/static/media/video-page-groovetube.61f50b11.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.eca76468.chunk.js",
+    "static/js/2.20c8b1b5.chunk.js",
     "static/css/main.3530342d.chunk.css",
-    "static/js/main.a2ee0ce5.chunk.js"
+    "static/js/main.4c48addf.chunk.js"
   ]
 }
