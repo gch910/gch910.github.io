@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.30a50dda.chunk.css",
-    "main.js": "/static/js/main.c6ad5508.chunk.js",
-    "main.js.map": "/static/js/main.c6ad5508.chunk.js.map",
+    "main.css": "/static/css/main.1a7a919f.chunk.css",
+    "main.js": "/static/js/main.9e1486c5.chunk.js",
+    "main.js.map": "/static/js/main.9e1486c5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.94e534df.chunk.js": "/static/js/2.94e534df.chunk.js",
     "static/js/2.94e534df.chunk.js.map": "/static/js/2.94e534df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ee5e7284cc2188514160695c1752ef52.js": "/precache-manifest.ee5e7284cc2188514160695c1752ef52.js",
+    "precache-manifest.1ed94c1102ee84d942282887e90df06f.js": "/precache-manifest.1ed94c1102ee84d942282887e90df06f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.30a50dda.chunk.css.map": "/static/css/main.30a50dda.chunk.css.map",
+    "static/css/main.1a7a919f.chunk.css.map": "/static/css/main.1a7a919f.chunk.css.map",
     "static/js/2.94e534df.chunk.js.LICENSE.txt": "/static/js/2.94e534df.chunk.js.LICENSE.txt",
     "static/media/avatar.png": "/static/media/avatar.d4a88514.png",
     "static/media/cloudify-homepage.PNG": "/static/media/cloudify-homepage.b55724f7.PNG",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.94e534df.chunk.js",
-    "static/css/main.30a50dda.chunk.css",
-    "static/js/main.c6ad5508.chunk.js"
+    "static/css/main.1a7a919f.chunk.css",
+    "static/js/main.9e1486c5.chunk.js"
   ]
 }
