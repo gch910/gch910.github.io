@@ -69,12 +69,8 @@
 }
 
 #card-container {
-<<<<<<< HEAD
-    height: 100vh;
-=======
     min-height: 100vh;
     padding: 0;
->>>>>>> 0415e3da8ba6d686251707dfaeafd4b666747a4b
     display: flex;
     align-items: top;
     background-color: rgba(162, 0, 255, 0.25);
@@ -93,15 +89,13 @@
     margin-top: 0;
     margin-bottom: 0;
     background-color: rgba(162, 0, 255, 0.25);
-<<<<<<< HEAD
 }
 
 #card-content {
     height: 20em;
 }
-=======
 
-}
+
 
 .card-link {
     text-decoration: none;
@@ -135,4 +129,4 @@
 
   
  }
->>>>>>> 0415e3da8ba6d686251707dfaeafd4b666747a4b
+
