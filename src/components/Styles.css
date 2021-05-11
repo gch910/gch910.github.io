@@ -96,6 +96,8 @@
     text-decoration: none;
 }
 
+
+
 .MuiButton-label {
     font-size: 1.5em;
 }
@@ -113,6 +115,16 @@
     display: flex;
     justify-content: space-around;
     /* flex-grow: inherit; */
+}
+
+.contact-h1 {
+    color: tomato;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.contact-link {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {

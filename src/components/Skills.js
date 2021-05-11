@@ -30,6 +30,14 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
+    name: "Project 3",
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    consequatur magni quod nesciunt necessitatibus molestiae non\
+    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+    iste alias sunt veritatis nisi dolores!`,
+    image: project3,
+  },
+  {
     name: "Project 1",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
@@ -44,14 +52,6 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project2,
-  },
-  {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
   },
   {
     name: "Project 4",
@@ -104,14 +104,6 @@ const Skills = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </Card>
           </Grid>
         ))}

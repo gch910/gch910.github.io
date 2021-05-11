@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "tomato",
+    background: "rgba(162, 0, 255, 0.25)",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -114,37 +114,9 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Work Experience and Education
       </Typography>
       <Box component="div" className={classes.timeLine}>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2013
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            web design
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
@@ -157,27 +129,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Berklee College of Music
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Bachelor's of Music
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            I began my studies in music at one of the most respected and rigorous music schools in the world.  At Berklee, I studied under and worked with numerous world class musicians, which lead me to a life as a professional musician.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -185,27 +154,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Professional Musician / Retail Management
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+           Leader of Gabriel Harris Group, Session Musician, Teacher.  Assistant Manager at J. Crew.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+             After Berklee I worked as a professional musician, playing gigs as the lead guitar player, singer and songwriter of my own band.  I also did session work for other recording artists as well as taught over 30 students guitar and music theory.  I also worked part time as an assistant manager at J. Crew during this time.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2017
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -213,20 +179,42 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            App Academy - Full Stack Javascript & Python
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            App Academy - Full Time Immersive Bootcamp
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Before starting at App Academy I did 6 months of disciplined self study, learning the fundamentals of Javascript, including advanced data structures and algorithms.  At App Academy's 24-week immersive bootcamp, I learned to refine these skills, building 4 full stack applications in a very short period of time.  I worked on projects with some of the most talented and hard-working people I have ever met and greatly expanded my passion for software development.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2021
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Software Engineer
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Currently Reviewing Job Offers
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            I am now on the rewarding path of applying for my first official Software Engineering position and I'm diligently comparing job offers to find the right fit for me.
           </Typography>
         </Box>
       </Box>

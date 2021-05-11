@@ -70,35 +70,28 @@ const Contact = () => {
           <Typography variant="h5" className={classes.heading}>
             Hire or Contact me...
           </Typography>
-          <InputField
-            fullWidth={true}
-            label="Name"
-            variant="outlined"
-            inputProps={{ className: classes.input }}
-          />
-          <InputField
-            fullWidth={true}
-            label="Email"
-            variant="outlined"
-            inputProps={{ className: classes.input }}
-            className={classes.field}
-          />
-          <InputField
-            fullWidth={true}
-            label="Message"
-            variant="outlined"
-            multiline
-            rows={4}
-            inputProps={{ className: classes.input }}
-          />
-          <Button
-            variant="outlined"
-            fullWidth={true}
-            endIcon={<Send />}
-            className={classes.button}
-          >
-            Contact Me
-          </Button>
+          <h2 className="contact-h1">Email: gharris910@icloud.com</h2>
+          <h2 className="contact-h1">Phone Number: 414-551-5625</h2>
+          <a className="contact-link" href="https://www.linkedin.com/in/gabriel-harris-249231208/">
+            <Button
+              variant="outlined"
+              fullWidth={true}
+              endIcon={<Send />}
+              className={classes.button}
+            >
+              Linked In
+            </Button>
+          </a>
+          <a className="contact-link" href="https://github.com/gch910">
+            <Button
+              variant="outlined"
+              fullWidth={true}
+              endIcon={<Send />}
+              className={classes.button}
+            >
+              GitHub
+            </Button>
+          </a>
         </Box>
       </Grid>
     </Box>
