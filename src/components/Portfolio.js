@@ -25,9 +25,10 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   cardContainer: {
-    maxWidth: 450,
-    margin: "3rem auto",
-    marginRight: "3%",
+    width: "110%",
+    minWidth: 350,
+    margin: "4rem auto",
+    marginRight: "50%",
   },
 }));
 
@@ -89,7 +90,7 @@ const Portfolio = () => {
         <Grid id="card-grid" container justify="center">
           {/* Projects */}
           {projects.map((project, i) => (
-            <Grid item xs={12} sm={8} md={4} key={i}>
+            <Grid id="card-outer-grid" item xs={12} sm={8} md={3} key={i}>
               <Card className={classes.cardContainer}>
                 <CardActionArea>
                   <CardMedia
