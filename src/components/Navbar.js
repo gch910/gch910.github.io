@@ -54,7 +54,7 @@ const menuItems = [
   { listIcon: <Apps />, listText: "Skills", listPath: "/skills" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/gch910.github.io/portfolio" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/gch910.github.io/contact" },
 ];
 
 const Navbar = () => {
