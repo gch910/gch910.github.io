@@ -53,7 +53,7 @@ const Header = () => {
           loop
         />
       </Typography>
-      {!isSafari ? <h2 id="is-safari">!! This site is not currently configured for use with Safari.  Please use another browser :) !!</h2> : ""}
+      {isSafari ? <h2 id="is-safari">!! This site is not currently configured for use with Safari.  Please use another browser :) !!</h2> : ""}
       <div id="icon-outer">
         <div id="icon-container">
           <i id="js-icon" className="icon fab fa-js fa-5x"></i>
