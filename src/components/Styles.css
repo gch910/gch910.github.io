@@ -15,6 +15,10 @@
 
 }
 
+#is-safari {
+    color: rgb(224, 13, 13);
+}
+
 .icon {
     
     margin-right: 10%;

@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
+import {isSafari} from 'react-device-detect';
 import "./Styles.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Header = () => {
   const classes = useStyles();
-
+  
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
@@ -52,6 +53,7 @@ const Header = () => {
           loop
         />
       </Typography>
+      {!isSafari ? <h2 id="is-safari">!! This site is not currently configured for use with Safari.  Please use another browser :) !!</h2> : ""}
       <div id="icon-outer">
         <div id="icon-container">
           <i id="js-icon" className="icon fab fa-js fa-5x"></i>
