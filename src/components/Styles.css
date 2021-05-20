@@ -17,7 +17,9 @@
 
 #is-safari {
     color: rgb(224, 13, 13);
-    margin-top: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .icon {
